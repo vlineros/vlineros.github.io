@@ -1,0 +1,81 @@
+body {
+  background-image: url(../images/prism.png);
+}
+#logo {
+  text-align: center;
+}
+#navbar {
+  margin-top: 5vh;
+  text-align: center;
+}
+h1 {
+  color: white;
+}
+#content {
+  margin: 2% 1% 0%;
+}
+hr {
+  height: 2px;
+  background-color: lightskyblue;
+  margin: 3% 20px 0;
+}
+#about-title {
+  position: relative;
+  bottom: 20px;
+  right: 25px;
+  background-color: rgb(1, 159, 221);
+  padding: 15px;
+  padding-top: 8px;
+  color: #ffffff;
+}
+.inner-content {
+  position: relative;
+  bottom: 5px;
+  margin-bottom: 20px;
+}
+#about-container {
+  border-bottom: 6px solid lightskyblue;
+  background-color: #ffffff;
+  padding: 0px 15px 0px;
+}
+p {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.inner-content {
+  margin-bottom: 20px;
+}
+#profile-pic {
+  margin-right: 12px;
+}
+#portfolio-title {
+  text-align: center;
+  color: #ffffff;
+}
+#links {
+  text-align: center;
+}
+a {
+  margin-right: 3px;
+  margin-left: 3px;
+  color: #ffffff;
+}
+a:hover {
+  opacity: 0.5;
+}
+h3 {
+  display: inline-block;
+  position: relative;
+  bottom: 25%;
+  text-align: center;
+  background-color: rgb(1, 159, 221);
+  color: #ffffff;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  border-radius: 10px;
+  padding: 5px 10px 5px;
+}
+h3:hover {
+  font-size: 2em;
+}
+.port-container {
+  text-align: center;
+}

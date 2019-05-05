@@ -1,13 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sample File</title>
-</head>
-<body>
-    <h1>This is a Sample</h1>
-    <p>It will be replaced but for now it shall suffice</p>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="assets/css/reset.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/foundation-sites@6.5.3/dist/css/foundation.min.css"
+      integrity="sha256-xpOKVlYXzQ3P03j397+jWFZLMBXLES3IiryeClgU5og= sha384-gP4DhqyoT9b1vaikoHi9XQ8If7UNLO73JFOOlQV1RATrA7D0O7TjJZifac6NwPps sha512-AKwIib1E+xDeXe0tCgbc9uSvPwVYl6Awj7xl0FoaPFostZHOuDQ1abnDNCYtxL/HWEnVOMrFyf91TDgLPi9pNg=="
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/motion-ui@1.2.3/dist/motion-ui.min.css"
+    />
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <title>Victor Lineros</title>
+  </head>
+  <body>
+      <div class="grid-y">
+        <div id="navbar" class="cell large-1">
+          <h1 >Victor Lineros</h1>
+        </div>
+        <div class="cell large-2">
+          <div class="grid-x">
+            <div class="cell large-auto">
+              <hr />
+            </div>
+            <div id="links" class="cell large-3">
+              <a href="https://github.com/vlineros?tab=repositories" target="_blank">
+              <img src="assets/images/GitHub_Logo.png">
+            </a>
+            <a href="https://www.linkedin.com/in/victorlineros" target="_blank">
+              <img src="assets/images/In-White-34.png">
+            </a>
+            <a>
+              <!-- LINK TO CONTACT PAGE -->
+            <img src="assets/images/email-send.png" height="40" width="40">
+          </a>
+          <p><a href="assets/images/VictorLineros - Resume.pdf" target="_blank">Resume</a></p>
+            </div>
+            <div class="cell large-auto">
+              <hr />
+            </div>
+          </div>
+        </div>
+        <div class="cell large-9">
+          <div id="content" class="grid-x grid-margin-x">
+            <div id="about-container" class="cell large-4">
+                <div class="grid-y"></div>
+                <div class="cell large-1">
+                      <h2 id="about-title">Hello.</h2>
+                  </div>
+                  <div class="cell large-11 inner-content">
+                      <img
+                        id="profile-pic"
+                        class="img-fluid float-left"
+                        src="assets/images/profile-pic.jpeg"
+                        alternate="A picture of Victor Lineros"
+                        height="auto"
+                        width="175px"
+                      />
+                      <p>
+                        I am a front end web developer with a passion for highly interactive and dynamic design. 
+                        I take pride in meeting deadlines and keeping organized in a fast paced environment. 
+                        I am currently studying the MERN stack of web development through the coding bootcamp at SMU as well as self teaching C# through the Unity game engine.
+                        I have a firm understanding of Bootstrap and Foundation and can prototype rapidly and effectively.
+                        I am determined to learn and implement new technologies and techniques to stay at the forefront of web development and design.
+                      </p>
+                  </div>
+                </div>
+            <div class="cell large-8">
+                <h2 id="portfolio-title">Some of my prettier projects</h2>
+              <div class="grid-y">
+                <div class="cell large-4">
+                  <div class="grid-x grid-margin-x">
+                    <div class="cell large-6 port-container">
+                      <a href="https://vlineros.github.io/Word-Guess-Game/" target="_blank">
+                            <img
+                              class="portfolio-pic"
+                              height="100%"
+                              width="100%"
+                              src="assets/images/Word-Guess-Game.PNG"
+                              alternate="fungames/apps/etc."
+                            />
+                            <h3>Doctor Hang Man</h3>
+                          </a>
+                    </div>
+                    <div class="cell large-6 port-container">
+                      <a href="https://vlineros.github.io/unit-4-game/" target="_blank">
+                            <img
+                              class="portfolio-pic"
+                              height="100%"
+                              width="100%"
+                              src="assets/images/Star-Wars-Game.PNG"
+                              alternate="fungames/apps/etc."
+                            />
+                            <h3>Star Wars Dueling Game</h3>
+                          </a>
+                    </div>
+                  </div>
+                </div>
+                <div class="cell large-4">
+                    <div class="grid-x grid-margin-x">
+                        <div class="cell large-6 port-container">
+                            <a href="https://vlineros.github.io/TriviaGame/" target="_blank">
+                                <img
+                                  class="portfolio-pic"
+                                  src="assets/images/Trivia-Game.PNG"
+                                  alternate="fungames/apps/etc."
+                                />
+                                <h3>Movie Release-Date Trivia</h3>
+                              </a>
+                        </div>
+                        <div class="cell large-6 port-container">
+                            <a href="https://vlineros.github.io/Giphy_API_App/" target="_blank">
+                                <img
+                                  class="portfolio-pic"
+                                  src="assets/images/GIPHY-App.PNG"
+                                  alternate="fungames/apps/etc."
+                                />
+                                <h3>GIPHY Search App</h3>
+                              </a>
+                        </div>
+                      </div>
+                </div>
+                    <div class="cell large-4">
+                      
+                    </div>
+              </div>              
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script type="text/javascript" src="assets/javascript/app.js"></script>
+  </body>
 </html>
