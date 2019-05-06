@@ -19,6 +19,26 @@
     <title>Victor Lineros</title>
   </head>
   <body>
+      <div id="contact-modal" class="modal">
+      
+        <div class="modal-content">
+          <span class="close">&times;</span>
+          <p>Contact Me</p>
+          <form>
+              <label>Name:
+                  <input type="text" placeholder="Name" />
+                </label>
+                <label>Email:
+                    <input type="text" placeholder="Email Address" />
+                  </label>
+                  <label>Message:
+                      <input type="text" placeholder="Message" />
+                    </label>
+                    <button id="email-button">Send</button>
+          </form>
+        </div>
+      
+      </div>
       <div class="grid-y">
         <div id="navbar" class="cell large-1">
           <h1 >Victor Lineros</h1>
@@ -35,8 +55,7 @@
             <a href="https://www.linkedin.com/in/victorlineros" target="_blank">
               <img src="assets/images/In-White-34.png">
             </a>
-            <a>
-              <!-- LINK TO CONTACT PAGE -->
+            <a href="#" id="contact-modal-trigger">
             <img src="assets/images/email-send.png" height="40" width="40">
           </a>
           <p><a href="assets/images/VictorLineros - Resume.pdf" target="_blank">Resume</a></p>
