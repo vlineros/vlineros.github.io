@@ -1,6 +1,16 @@
 body {
   background-image: url(../images/prism.png);
 }
+.animate-test {
+  opacity: 0;
+  font-family: good-times, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  color: white;
+  text-shadow: 0px 3px 3px lightseagreen, 0px -3px 3px lightseagreen,
+    3px 0px 3px lightseagreen, -3px 0px 3px lightseagreen;
+  margin-bottom: 5vh;
+}
 #logo {
   text-align: center;
 }
@@ -8,22 +18,32 @@ body {
   margin-top: 5vh;
   text-align: center;
 }
-h1 {
-  color: white;
-}
+
 #content {
   margin: 2% 1% 0%;
 }
 hr {
-  height: 2px;
-  background-color: lightskyblue;
-  margin: 3% 20px 0;
+  height: 0px;
+  background-color: white;
+  max-width: 0;
+  border: 0.5px groove lightblue;
+  border-radius: 5px;
+  box-shadow: 0px 0px 20px 10px lightseagreen;
+}
+.hr-animate-left {
+  margin: 5px 0px 5px auto;
+}
+.hr-animate-right {
+  margin: 5px auto 5px 0px;
+}
+.hr-cell {
+  padding: 0 1% 0 1%;
 }
 #about-title {
   position: relative;
   bottom: 20px;
   right: 25px;
-  background-color: rgb(1, 159, 221);
+  background-color: rgb(20, 102, 84);
   padding: 15px;
   padding-top: 8px;
   color: #ffffff;
@@ -34,7 +54,7 @@ hr {
   margin-bottom: 20px;
 }
 #about-container {
-  border-bottom: 6px solid lightskyblue;
+  border-bottom: 6px solid lightseagreen;
   background-color: #ffffff;
   padding: 0px 15px 0px;
 }
@@ -50,6 +70,7 @@ p {
 #portfolio-title {
   text-align: center;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 #links {
   text-align: center;
@@ -63,11 +84,12 @@ a:hover {
   opacity: 0.5;
 }
 h3 {
+  /* max-width: 0; */
   display: inline-block;
   position: relative;
   bottom: 25%;
   text-align: center;
-  background-color: rgb(1, 159, 221);
+  background-color: rgb(20, 102, 84);
   color: #ffffff;
   font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   border-radius: 10px;
@@ -114,7 +136,6 @@ h3:hover {
   cursor: pointer;
 }
 #email-button {
-  background-color: rgb(1, 159, 221);
   color: #ffffff;
   padding: 10px 15px 10px;
 }

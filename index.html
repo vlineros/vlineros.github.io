@@ -12,6 +12,9 @@
       crossorigin="anonymous"
     />
     <link rel="stylesheet" href="assets/css/style.css" />
+    <!-- Fonts: -->
+    <link rel="stylesheet" href="https://use.typekit.net/vrw3puk.css">
+
     <title>Victor Lineros</title>
   </head>
   <body>
@@ -37,12 +40,12 @@
       </div>
       <div class="grid-y">
         <div id="navbar" class="cell large-1">
-          <h1 >Victor Lineros</h1>
+          <h1 class='animate-test'>Victor Lineros</h1>
         </div>
         <div class="cell large-2">
           <div class="grid-x">
-            <div class="cell large-auto">
-              <hr />
+            <div class="cell large-auto hr-cell">
+              <hr class="animate-hr hr-animate-left"/>
             </div>
             <div id="links" class="cell large-3">
               <a href="https://github.com/vlineros?tab=repositories" target="_blank">
@@ -56,14 +59,15 @@
           </a>
           <p><a href="assets/images/VictorLineros - Resume.pdf" target="_blank">Resume</a></p>
             </div>
-            <div class="cell large-auto">
-              <hr />
+            <div class="cell large-auto hr-cell">
+              <hr class="animate-hr hr-animate-right"/>
             </div>
           </div>
         </div>
         <div class="cell large-9">
           <div id="content" class="grid-x grid-margin-x">
-            <div id="about-container" class="cell large-4">
+            <div class="cell large-4">
+              <div id="about-container">
                 <div class="grid-y"></div>
                 <div class="cell large-1">
                       <h2 id="about-title">Hello.</h2>
@@ -86,6 +90,7 @@
                       </p>
                   </div>
                 </div>
+              </div>
             <div class="cell large-8">
                 <h2 id="portfolio-title">Some of my prettier projects</h2>
               <div class="grid-y">
@@ -95,24 +100,20 @@
                       <a href="https://vlineros.github.io/Word-Guess-Game/" target="_blank">
                             <img
                               class="portfolio-pic"
-                              height="100%"
-                              width="100%"
                               src="assets/images/Word-Guess-Game.PNG"
                               alternate="fungames/apps/etc."
                             />
-                            <h3>Doctor Hang Man</h3>
+                            <h3 id="p0">Doctor Hang Man</h3>
                           </a>
                     </div>
                     <div class="cell large-6 port-container">
                       <a href="https://vlineros.github.io/unit-4-game/" target="_blank">
                             <img
                               class="portfolio-pic"
-                              height="100%"
-                              width="100%"
                               src="assets/images/Star-Wars-Game.PNG"
                               alternate="fungames/apps/etc."
                             />
-                            <h3>Star Wars Dueling Game</h3>
+                            <h3 id="p1">Star Wars Dueling Game</h3>
                           </a>
                     </div>
                   </div>
@@ -126,7 +127,7 @@
                                   src="assets/images/Trivia-Game.PNG"
                                   alternate="fungames/apps/etc."
                                 />
-                                <h3>Movie Release-Date Trivia</h3>
+                                <h3 id="p2">Release-Date Trivia</h3>
                               </a>
                         </div>
                         <div class="cell large-6 port-container">
@@ -136,13 +137,34 @@
                                   src="assets/images/GIPHY-App.PNG"
                                   alternate="fungames/apps/etc."
                                 />
-                                <h3>GIPHY Search App</h3>
+                                <h3 id="p3">GIPHY Search App</h3>
                               </a>
                         </div>
                       </div>
                 </div>
                     <div class="cell large-4">
-                      
+                      <div class="grid-x grid-margin-x">
+                        <div class="cell large-6 port-container">
+                            <a href="https://mustbuy.herokuapp.com/" target="_blank">
+                                <img
+                                  class="portfolio-pic"
+                                  src="assets/images/Must-Buy.PNG"
+                                  alternate="fungames/apps/etc."
+                                />
+                                <h3 id="p4">Must Buy Storefront</h3>
+                              </a>
+                        </div>
+                        <div class="cell large-6 port-container">
+                            <a href="https://boiling-tundra-51424.herokuapp.com/" target="_blank">
+                                <img
+                                  class="portfolio-pic"
+                                  src="assets/images/Burger-App.PNG"
+                                  alternate="fungames/apps/etc."
+                                />
+                                <h3 id="p5">Burger Tracking App</h3>
+                              </a>
+                        </div>
+                      </div>
                     </div>
               </div>              
             </div>
